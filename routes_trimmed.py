@@ -41,6 +41,9 @@ def forgot():
 			mailserver.sendmail('xxx',email_list,msg.as_string())
 
 			mailserver.quit()
+			flash('PW Reset Email Sent!')
+
+
 
 
 
